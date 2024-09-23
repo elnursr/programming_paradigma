@@ -1,12 +1,12 @@
-# Programlashdirmada ***Paradigm***
-## Programlashdirmada **paradigm** software development prossesinde istifade edilen ferqli dushunce ve yanashma modelleridir. Programlashdirma dilleri muxtelif paradigma-lar etrafinda formalashir ve her paradigma problemlerin helline ferqli bir baxish terzi getirir. En chox yayilan programlashdirma paradigma-lari ashagidakilardir:
+# Programlashdirmada ***Paradigma***
+## Programlashdirmada **paradigma** software development prossesinde istifade edilen ferqli dushunce ve yanashma modelleridir. Programlashdirma dilleri muxtelif paradigma-lar etrafinda formalashir ve her paradigma problemlerin helline ferqli bir baxish terzi getirir. En chox yayilan programlashdirma paradigma-lari ashagidakilardir:
 
 1. **Obyekt Yonumlu Programlashdirma (OOP=> Object Oriented Programming)**
 * Temel xususiyyetleri: Obyekt yonumlu programlashdirmada **paradigma** obyektler esasinda teshkil olunar.
 - Example languages: C++, Java, C#, Python
 ---
 2. **Funksional Programlashdirma (FP=> Functional Programming)**
-* Temel xususiyyetleri: Funksional programlashdirma programlashdirmani riyazi funksiyalar uzerine qurar. Stateless ve pure funksiyalar istifade ederek programlashdirilar. Deyishmezlik (immutability) ve yan tesirinin olmamasi bu paradigmanin temeli sayilir.
+* Temel xususiyyetleri: Funksional programlashdirma programlashdirmani riyazi funksiyalar uzerine qurar. Stateless ve pure funksiyalar istifade ederek programlashdirilar. Deyishmezlik (immutability) ve yan tesirinin olmamasi bu paradigma-nin temeli sayilir.
 - Example languages: F#, Scala, Haskell
 - Example image: ![Image](./assets/media/image/functional/image.jpg)
 - Example code: 
