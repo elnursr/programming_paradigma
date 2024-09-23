@@ -165,7 +165,7 @@ calculateButton.addEventListener('click', function (e) {
 ```
 ---
 4. **Deklarativ Programlashdirma (Declarative Programming)**
-* * Temel xususiyyetleri: Deklarativ programlashdirmada programchi
+* Temel xususiyyetleri: Deklarativ programlashdirmada programchi
 hell yolunun mentiqini mueyyenleshdirer amma programin nece ishleyeceyini programlashdirma dili ozu teyin edir.
 - Example languages: HTML, CSS, SQL
 - Example image: ![Image](./assets/media/image/declarative/image.jpg)
