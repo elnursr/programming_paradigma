@@ -116,7 +116,7 @@ calculateButton.addEventListener('click', function () {
 ```
 ---
 3. **Prosedural Prgramlashdirma (Procedural Programming)**
-* Temel xususiyyetleri: Prosedural prgramlashdirma prosseslerin ve ya prosedurlarin bir sira icherisinde mueyyen edildiyi paradigma-dir. Bu modelde programlar prosseslere bolunur her prosses mueyyen bir vezifeni yerine yetirmish olar.
+* Temel xususiyyetleri: Prosedural prgramlashdirma prosseslerin ve ya prosedurlarin bir sira icherisinde mueyyen edildiyi paradigma-dir. Bu modelde programlar prosseslere bolunur her prosses mueyyen bir vezifeni yerine yetirmish olur.
 - Example languages: C, Pascal, Go, Fortran
 - Example image: ![Image](./assets/media/image/procedural/image.jpg)
 - Example code: 
