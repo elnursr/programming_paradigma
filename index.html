@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Programming paradigms</title>
+
+    <link rel="icon" href="assets/media/icon/icon.ico">
+    <link rel="stylesheet" href="assets/css/main.css">
+
+    <script type="module" src="assets/js/procedural.js"></script>
+
+</head>
+
+<body>
+
+    <section class="simple-calculator">
+        <div class="simple-calculator__layout"></div>
+        <ul class="simple-calculator__items">
+            <li class="simple-calculator__item">
+                <h1 class="simple-calculator__heading">Simple Calculator</h1>
+            </li>
+            <li class="simple-calculator__item">
+                <label for="firstNumber">First number</label>
+                <input type="text" placeholder="Please enter first number" id="firstNumber">
+            </li>
+            <li class="simple-calculator__item">
+                <label for="secondNumber">Second number</label>
+                <input type="text" placeholder="Please enter second number" id="secondNumber">
+            </li>
+            <li class="simple-calculator__item">
+                <label for="operator">Operator</label>
+                <input type="text" placeholder="Please enter operator (example: + - * /)" id="operator">
+            </li>
+            <li class="simple-calculator__item">
+                <input type="button" value="Calculate" id="calculate">
+            </li>
+            <li class="simple-calculator__item">
+                <div class="simple-calculator__alert"><i class="fas fa-exclamation-circle"></i> Invalid input</div>
+                <div class="simple-calculator__success"><i class="fas fa-check-circle"></i> Calculate result: <span
+                        class="simple-calculator__result"></span></div>
+            </li>
+        </ul>
+    </section>
+
+    <audio src="assets/media/sound/calculate.wav" class="play-calculate-sound"></audio>
+    <audio src="assets/media/sound/error.wav" class="play-error-sound"></audio>
+    <audio src="assets/media/sound/success.wav" class="play-success-sound"></audio>
+
+</body>
+
+</html>

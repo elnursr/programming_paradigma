@@ -1,0 +1,115 @@
+.simple-calculator {
+    position: relative;
+
+    &__layout {
+        position: relative;
+        height: 100vh;
+        background-size: cover;
+        background-position: center;
+        background-image: url('../media/image/math.jpg');
+
+        &::after {
+            content: '';
+            position: absolute;
+            inset: 0;
+            width: 100%;
+            height: 100%;
+            background-image: linear-gradient(145deg, rgba(67, 57, 87, 0.5), rgb(45, 97, 208, 0.7), rgba(91, 219, 221,0.3))
+        }
+    }
+
+    &__heading {
+        text-align: center;
+        letter-spacing: 1.7px;
+        color: rgb(255, 255, 255);
+    }
+
+    &__success,
+    &__alert {
+        position: absolute;
+        text-align: center;
+        width: 100%;
+        border-radius: 5px;
+        padding: 12px 0;
+        opacity: 0;
+        transition: opacity 0.3s;
+        color: rgb(255, 255, 255);
+
+        &.active {
+            opacity: 1;
+            top: 0%;
+        }
+
+        .fas {
+            margin: 0 5px;
+        }
+    }
+
+    &__success {
+        background-color: rgb(7, 201, 24);
+    }
+
+    &__alert {
+        background-color: rgba(255, 1, 1, 0.7);
+    }
+
+    &__result {
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        width: 3em;
+    }
+
+    &__items {
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    &__item {
+        position: relative;
+        margin: 5px 0;
+        z-index: 1;
+
+        &:nth-child(5) {
+            input {
+                cursor: pointer;
+                letter-spacing: 1.1px;
+                font-weight: 455;
+                transition: background-color 0.3s;
+
+                &:hover {
+                    background-color: rgb(11, 119, 207);
+                }
+            }
+        }
+
+        input {
+            border: none;
+            width: 25em;
+            padding: 12px 7px;
+            border-radius: 5px;
+            transition: box-shadow 0.2s;
+            color: rgb(255, 255, 255);
+            background-color: rgba(0, 0, 0, 0.5);
+
+            &:focus {
+                box-shadow: 0 0 12px 1px rgb(209, 209, 209);
+            }
+
+            &::placeholder {
+                color: rgba(255, 255, 255, 0.7);
+            }
+        }
+
+        label {
+            display: block;
+            margin: 1.5px 0;
+            color: rgb(255, 255, 255);
+        }
+    }
+}
