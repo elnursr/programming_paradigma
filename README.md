@@ -1,12 +1,12 @@
-# Programlashdirmada ***Paradigma***
+# **Programlashdirmada Paradigma**
 ## Programlashdirmada **paradigma** software development prossesinde istifade edilen ferqli dushunce ve yanashma modelleridir. Programlashdirma dilleri muxtelif paradigma-lar etrafinda formalashir ve her paradigma problemlerin helline ferqli bir baxish terzi getirir. En chox yayilan programlashdirma paradigma-lari ashagidakilardir:
 
 1. **Obyekt Yonumlu Programlashdirma (OOP=> Object Oriented Programming)**
-* Temel xususiyyetleri: Obyekt yonumlu programlashdirmada **paradigma** obyektler esasinda teshkil olunar.
+* Information: Obyekt yonumlu programlashdirmada **paradigma** obyektler esasinda teshkil olunar.
 - Example languages: C++, Java, C#, Python
 ---
 2. **Funksional Programlashdirma (FP=> Functional Programming)**
-* Temel xususiyyetleri: Funksional programlashdirma programlashdirmani riyazi funksiyalar uzerine qurar. Stateless ve pure funksiyalar istifade ederek programlashdirilar. Deyishmezlik (immutability) ve yan tesirinin olmamasi bu paradigma-nin temeli sayilir.
+* Information: Funksional programlashdirma programlashdirmani riyazi funksiyalar uzerine qurar. Stateless ve pure funksiyalar istifade ederek programlashdirilar. Deyishmezlik (immutability) ve yan tesirinin olmamasi bu paradigma-nin temeli sayilir.
 - Example languages: F#, Scala, Haskell
 - Example image: ![Image](./assets/media/image/functional/image.jpg)
 - Example code: 
@@ -115,8 +115,8 @@ calculateButton.addEventListener('click', function () {
 });
 ```
 ---
-3. **Prosedural Prgramlashdirma (Procedural Programming)**
-* Temel xususiyyetleri: Prosedural prgramlashdirma prosseslerin ve ya prosedurlarin bir sira icherisinde mueyyen edildiyi paradigma-dir. Bu modelde programlar prosseslere bolunur her prosses mueyyen bir vezifeni yerine yetirmish olur.
+3. **Prosedural Programlashdirma (Procedural Programming)**
+* Information: Prosedural prgramlashdirma prosseslerin ve ya prosedurlarin bir sira icherisinde mueyyen edildiyi paradigma-dir. Bu modelde programlar prosseslere bolunur her prosses mueyyen bir vezifeni yerine yetirmish olur.
 - Example languages: C, Pascal, Go, Fortran
 - Example image: ![Image](./assets/media/image/procedural/image.jpg)
 - Example code: 
@@ -165,7 +165,7 @@ calculateButton.addEventListener('click', function (e) {
 ```
 ---
 4. **Deklarativ Programlashdirma (Declarative Programming)**
-* Temel xususiyyetleri: Deklarativ programlashdirmada programchi
+* Information: Deklarativ programlashdirmada programchi
 hell yolunun mentiqini mueyyenleshdirer amma programin nece ishleyeceyini programlashdirma dili ozu teyin edir.
 - Example languages: HTML, CSS, SQL
 - Example image: ![Image](./assets/media/image/declarative/image.jpg)
@@ -227,3 +227,14 @@ hell yolunun mentiqini mueyyenleshdirer amma programin nece ishleyeceyini progra
 
 </html>
 ```
+5. **Multi-paradigm Programlashdirma**
+* Information: Multi-paradigm birden chox programlashdirma paradigm-ni destekleyen diller ve ya yanashmalar uchun istifade edilir. Multi-paradigm bir dil ise ferqli paradigm-lerde olan usullari bir araya getirir ve istifadechilere bu paradim-lere uygun shekilde kod yazma azadligini temin edir.
+- Example languages: Python, C++, JavaScript
+6. **Imperative**
+* Information: Bu paradigm programlashdirma dunyasinda cpu-ya step by step nece bir ish goreceyini izah eden bir yanashma terzini ifade edir. Bu paradgim programin command-larla idare edilmesine aiddir.
+7. **Parallel Processing Paradigm**
+* Information: Bu paradigm boyuk prossesleri daha kichik parchalara ayiraraq bu parchalarin bir-birinden asli olmadan ve eynizamanda ishlemesini temin edir. Bele olan halda prossesin zamani qisalir ve sistemin resurslari daha semereli istifade olunur. Daha chox elmi hesablamalar ve AI Machine Learning, graphic engine-larda istifade olunur. Bu paradigm-in esas hedefi suret ve qazanc artishidir. 
+- Example languages: C/C++ (OpenMP, MPI), CUDA
+8. **Logic Processing Paradigm**
+* Information: Bu paradigm meseleleri mentiqi qanunlar ve realliqlarla mueyyen etmeye soykenir ve programin birbasha neticeye chatmasini temin eder. En esasi programchi prossesin nece edileceyin mueyyen etmez, bunun yerine sadece hansi shertlerin dogru oldugunu mueyen eder. Daha chox istifade olundugu saheler danishiq dilleri, AI ve data analizidir.
+Example languages: Prolog, Datalog, Mercury
